@@ -9,7 +9,6 @@ public class ConsInventory implements InVentory{
 		this.rest=rest;
 }
 	public ConsInventory(Toy first, InVentory rest) {
-		super();
 		this.first = first;
 		this.rest = rest;
 	}
